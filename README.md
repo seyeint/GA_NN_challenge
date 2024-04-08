@@ -15,5 +15,12 @@ Every time we evolve the system for a while, we tend to encounter local minimas.
 
 Although we might not get to a global minima, improving on this can be as simple as locking X layer's weights and optimizing only 1 layer with the genetic algorithm, in order to conserve the semantic structure of that layer's numerical values and improving on them without drawbacks.
 
+One last thing. It's incorrect to take away any point that reads this as an example of why evolutionary algorithms are inferior to neural networks (specifically the gradient descent search). 
+
+**Evolutionary algorithms are finding solutions** <sup><sub>(that can be functions, search symbolic regression/genetic programming)</sub></sup> **given a function while neural networks are finding a function given to lots of solutions** .
+
+It's all about problem formulation for GAs are optimizers. It's not apples to apples here. 
+
 This was a very good challenge to develop intuition in an early phase of understanding both inner workings of neural nets and optimization algorithms.
+
 
