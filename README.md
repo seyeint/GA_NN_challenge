@@ -6,6 +6,7 @@ There were specific limits on variables like number of generations, impeding exh
 
 The genetic algorithm creates and evolves weights that will populate the network. After that, the network tries to predict X targets.
 
+
 ![int_png](https://github.com/seyeint/GA_NN_challenge/assets/36778187/0bfda253-512c-432a-841e-93c91c8a12a4)
 
 Simply put, the problem with searching for all the weights is that each time we produce them (new individuals in the GA population), they get assigned throughout hidden neurons in all the layers, changing the appropriateness of previous weight assignments.
