@@ -11,7 +11,7 @@ The genetic algorithm creates and evolves weights that will populate the network
 
 Simply put, the problem with searching for all the weights is that each time we produce them (new individuals in the GA population), they get assigned throughout hidden neurons in all the layers, changing the appropriateness of previous weight assignments.
 
-Everytime we evolve the system for a while, we tend to local minimas. For example, a new different weight in the first layer completely changes the probability of a previous "sucessful" 2nd layer weight assignment continuing to be "sucessful" due to the natural forward matrix composition result update.
+Every time we evolve the system for a while, we tend to encounter local minimas. For example, introducing a new weight in the first layer can significantly alter the likelihood of a previously 'successful' assignment of weights in the second layer remaining 'successful' due to the natural updates in the forward matrix composition.
 
 Although we might not get to a global minima, improving on this can be as simple as locking X layer's weights and optimizing only 1 layer with the genetic algorithm, in order to conserve the semantic structure of that layer's numerical values and improving on them without drawbacks.
 
