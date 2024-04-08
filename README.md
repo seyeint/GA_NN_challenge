@@ -17,7 +17,7 @@ Although we might not get to a global minima, improving on this can be as simple
 
 One last thing. It's incorrect to take away any point that reads this as an example of why evolutionary algorithms are inferior to neural networks (specifically the gradient descent search). 
 
-**Evolutionary algorithms are finding solutions** <sup><sub>(that can be functions, search symbolic regression/genetic programming)</sub></sup> **given a function while neural networks are finding a function given to lots of solutions** .
+_**Evolutionary algorithms are finding solutions**_ <sup><sub>(that can be functions, search symbolic regression/genetic programming)</sub></sup> _**given a function while neural networks are finding a function given to lots of solutions**_ .
 
 It's all about problem formulation for GAs are optimizers. It's not apples to apples here. 
 
